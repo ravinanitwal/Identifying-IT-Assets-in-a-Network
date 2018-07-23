@@ -1,0 +1,145 @@
+body{
+          background:#a5302e;
+          width: 100%;
+          height: 90%;
+          font-family: 'Aref Ruqaa';
+          position:fixed;
+          top:0;
+          bottom:0;
+          left:0;
+          right:0;
+          overflow: auto;
+        }
+        .jumbotron{
+          height: 100%;
+            background-color:#fecc00;
+            border-radius: 3%;
+            padding: 2%;
+
+        }
+        #left{
+            float: left;
+            width:50%;
+            height:100%;
+        }
+        #right{
+            float: right;
+            width:46%;
+            height:90%;
+            margin: 2%;
+        }
+        #center{
+          height:105%;
+          margin:1%;
+          border-radius:0px;
+        }
+         #glyph{
+          padding: 40% 5% 0% 10%;
+          font-size: 20px;
+          font-family: 'Averia Serif Libre';
+          font-weight: bold;
+         }
+        .button {
+  display: inline-block;
+  border-radius: 1%;
+  background-color:#DB3A34;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 3.5%;
+  width: 62%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin:24% 20% 10% 20%;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button:hover span {
+  padding-right: 25px;
+   
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#image{
+    padding: 10% 35% 5% 40%;
+}
+
+#ebutton1{
+  background-color:#DB3A34; 
+  display: inline-block;
+  border-radius: 1%;
+  border: none;
+  color: #FFFFFF;
+  font-style: normal;
+  text-align: center;
+  font-size: 18px;
+  padding: 1.8%;
+  margin-bottom: 5%;
+  margin-left: 7%;
+  width: 83%; 
+}
+#ebutton1:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#ebutton2{
+
+  display: inline-block;
+  border-radius: 2%;
+  border: none;
+  color: #FFFFFF;
+  font-style: normal;
+  text-align: center;
+  font-size: 18px;
+  padding: 1.8%;
+  margin-left: 70%;
+  width:20%;
+  background-color: #03c03c;
+}
+#ebutton2:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#ebutton3{ 
+  background-color:#FFFFFF; 
+  display: inline-block;
+  border-radius: 1%;
+  border: none;
+  font-style: normal;
+  text-align: center;
+  font-size: 18px;
+  padding: 1.8%;
+  margin-bottom: 5%;
+  margin-left: 7%;
+  width: 83%; 
+}
+#ebutton3:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#footer {
+ 
+ margin-top: 7%;
+font-size:16px;
+color: grey; 
+width:100%;
+text-align: center;
+font-style: italic;
+}

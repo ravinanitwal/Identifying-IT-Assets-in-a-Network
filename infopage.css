@@ -1,0 +1,16 @@
+body{
+	background-color: #6DE2E7;
+	padding: 5%;
+}
+#ipbutton{
+  display: inline-block;
+  border:none;
+  background-color: #FF3A3A;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 2%;
+  margin: 1.5%;
+  width:22%;
+
+}
